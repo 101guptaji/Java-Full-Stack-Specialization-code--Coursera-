@@ -1,0 +1,22 @@
+h1 {
+  font: 50px arial;
+  color: grey;
+}
+
+canvas {
+  height: 200pt;
+  border: 1px solid lightgrey;
+}
+
+input {
+  font-size: 14pt;
+}
+
+h2 {
+  font-size: 18pt;
+}
+
+body {
+  background-color: wheat;
+  margin: 20pt;
+}

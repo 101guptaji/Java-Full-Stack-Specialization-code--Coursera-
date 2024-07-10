@@ -1,0 +1,31 @@
+
+<h1 id="myHeader">TO DO List</h1>
+
+<!-- Add button and text  -->
+    
+<input type="button" id="addButton" value="Add" onclick="addTask()" />
+<input type="text" id="input" placeholder="enter task..." />
+
+<hr>
+  <ul id="tasks">
+  <li>
+    <input type="button" class="done" onclick="markDone(this.parentNode)" value="&#x2713;" />
+    <input type="button" class="remove" onclick="remove(this.parentNode)" value="&#x2715;" />
+    <input type="button" class="important" onclick="important(this.parentNode)" value="!" />
+    make todo list
+  </li>
+ </ul>
+<hr>
+<!-- About text and button  -->
+<div id="divabout">
+</div>
+<p>
+  <input type="button" value="About"
+         onclick="doAbout()">
+  <!-- Clear the diabout content  -->
+  <input type="button" value="Clear"
+         onclick="clearAbout()">
+</p>
+   
+
+    

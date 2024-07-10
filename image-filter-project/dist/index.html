@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Image Filter Project</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!--import library for SimpleImage method in JS -->
+<script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js">
+</script>
+
+<h1>Image Filter</h1>
+<canvas id="can1"></canvas>
+<h2> Load Image</h2>
+<div>
+  <input type="file" id="fInput" multiple="false" accept="image/*" onchange="doUpload()">
+</div>
+<h2> Choose Filter</h2>
+<p>
+  <input type="button" value="grayscale" id="mGray" onclick="makeGray()" />
+  <input type="button" value="red" id="mRed" onclick="makeRed()" />
+  <input type="button" value="rainbow" id="rainbow" onclick="makeRainbow()" />
+  <input type="button" value="blur" id="blur" onclick="makeBlur()" />
+  <input type="button" value="window pane" id="window" onclick="makeWindow()" />
+</p>
+<p>
+  <input type="button" value="reset image" id="reset" onclick="reset()" />
+</p>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
