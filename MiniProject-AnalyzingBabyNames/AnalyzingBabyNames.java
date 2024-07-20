@@ -261,6 +261,7 @@ public class AnalyzingBabyNames {
         int rank = getRank(year, name, gender);
         int totalBirth = getTotalBirthsRankedHigher(year, name, gender);
         System.out.println("Total no. of births with ranked higher than "+name+" of gender "+gender+" in year "+year+" is "+totalBirth);
-
+        
+        
     }
 }
