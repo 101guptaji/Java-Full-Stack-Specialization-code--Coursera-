@@ -1,2 +1,12 @@
 Course 2 resources
 https://www.dukelearntoprogram.com/course2/
+
+Course 3
+https://www.dukelearntoprogram.com/course3/index.php
+
+Course 4 (Java Programming: Principles of Software Design)
+https://www.dukelearntoprogram.com/course4/index.php
+https://developer.android.com/reference/android/location/Location
+https://www.apache.org/licenses/LICENSE-2.0
+
+
