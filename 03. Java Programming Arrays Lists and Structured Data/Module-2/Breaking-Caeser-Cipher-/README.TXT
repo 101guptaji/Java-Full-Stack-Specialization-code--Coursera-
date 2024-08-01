@@ -3,7 +3,7 @@ In this module, you will learn about the basics of cryptography, the science of 
 ------------------------------------------------------------------------
 
 PROJECT TITLE: Cryptography
-PURPOSE OF PROJECT: Creating the Ceaser Cipher
+PURPOSE OF PROJECT: Creating and Breaking the Ceaser Cipher and Vengence Cipher
 VERSION or DATE: 
 HOW TO START THIS PROJECT:
 AUTHORS: HimanshuGupta
